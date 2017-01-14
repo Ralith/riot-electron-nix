@@ -13,8 +13,8 @@ You can make this package available by, for example, using a `~/.nixpkgs/config.
       repo = "riot-electron-nix";
 
       # Update these hashes as necessary
-      rev = "cef24f083e4b270f5dcfc4566de46cc73fa73ec3";
-      sha256 = "1db7zgfzqzj46kxpwhp2spfh9027aqixfz1x6ndrxvkgc2jncsqb";
+      rev = "a18ffeb00b6653a19e893c3ebed3d4cf81ece0a7";
+      sha256 = "181rjy0g24913qv8v4p7766f5nnybgwamppyl25cnndb4i04l5yi";
     };
     riot = pkgs.callPackage riot-package {};
   };
