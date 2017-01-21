@@ -1,18 +1,18 @@
 { stdenv, fetchurl, fetchFromGitHub, electron, bash, gnutar }:
 stdenv.mkDerivation rec {
   name = "riot-${version}";
-  version = "0.9.6-rc.1";
+  version = "0.9.6";
 
   src = fetchFromGitHub {
     owner = "vector-im";
     repo = "riot-web";
     rev = "v${version}";
-    sha256 = "1icygbvxp2szzhsvkkjwcnac604457l4irgw9xy8bv108aad5mfv";
+    sha256 = "1vxssmkd85qga35wdrr0ffimbh2q4nl1lsv9mzzbrlyqkmx8rq4p";
   };
 
   packaged = fetchurl {
     url = "https://github.com/vector-im/riot-web/releases/download/v${version}/vector-v${version}.tar.gz";
-    sha256 = "1jqjj18dsnrnrz8cgzhgiaxbq5323w9281n5r9zv2gnp9bm0l1d9";
+    sha256 = "0yds1idp49lb6x2gss5mklfmkcqyswzvp5x2629pxyyrvdi60j0c";
   };
 
   buildInputs = [ electron bash gnutar ];
