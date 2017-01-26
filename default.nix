@@ -1,5 +1,6 @@
-{ stdenv, fetchurl, fetchFromGitHub, electron, bash, gnutar }:
-stdenv.mkDerivation rec {
+{ stdenv, fetchurl, fetchFromGitHub, writeScriptBin, electron, bash, gnutar }:
+let
+riot = stdenv.mkDerivation rec {
   name = "riot-${version}";
   version = "0.9.6";
 
@@ -15,20 +16,18 @@ stdenv.mkDerivation rec {
     sha256 = "0yds1idp49lb6x2gss5mklfmkcqyswzvp5x2629pxyyrvdi60j0c";
   };
 
-  buildInputs = [ electron bash gnutar ];
+  buildInputs = [ gnutar ];
 
   dontBuild = true;
 
   installPhase = ''
-    DATA_DIR="$out/share/riot"
-    mkdir -p "$DATA_DIR/webapp"
-    tar xf ${packaged} -C "$DATA_DIR/webapp" --strip-components 1
-    cp -r electron "$DATA_DIR"
-    cp package.json "$DATA_DIR"
-    mkdir -p "$out/bin"
-    electron=${electron}
-    bash=${bash}
-    substituteAll ${./wrapper.sh} "$out/bin/riot"
-    chmod +x "$out/bin/riot"
+    mkdir -p "$out/webapp"
+    tar xf ${packaged} -C "$out/webapp" --strip-components 1
+    cp -r electron "$out"
+    cp package.json "$out"
   '';
-}
+};
+in writeScriptBin "riot" ''
+  #!${bash}/bin/sh
+  ${electron}/bin/electron "${riot}" "$@"
+''
