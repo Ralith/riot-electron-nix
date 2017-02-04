@@ -1,19 +1,19 @@
 { stdenv, fetchurl, fetchFromGitHub, writeScriptBin, electron, bash, gnutar }:
 let
 riot = stdenv.mkDerivation rec {
-  name = "riot-${version}";
-  version = "0.9.6";
+  name = "riot-desktop-${version}";
+  version = "0.9.7";
 
   src = fetchFromGitHub {
     owner = "vector-im";
     repo = "riot-web";
     rev = "v${version}";
-    sha256 = "1vxssmkd85qga35wdrr0ffimbh2q4nl1lsv9mzzbrlyqkmx8rq4p";
+    sha256 = "0qcf8g8mvvjgmg79mdk7a2b7g2jw6py4ws087ir79y3z3k7zfs34";
   };
 
   packaged = fetchurl {
     url = "https://github.com/vector-im/riot-web/releases/download/v${version}/vector-v${version}.tar.gz";
-    sha256 = "0yds1idp49lb6x2gss5mklfmkcqyswzvp5x2629pxyyrvdi60j0c";
+    sha256 = "14x6ndrnvb50qhmw43yhdrk25jqh7ac7ym3g0gf5zzr609455717";
   };
 
   buildInputs = [ gnutar ];
