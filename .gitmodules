@@ -1,0 +1,3 @@
+[submodule "riot-web"]
+	path = riot-web
+	url = https://github.com/vector-im/riot-web.git

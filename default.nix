@@ -1,33 +1,24 @@
-{ stdenv, fetchurl, fetchFromGitHub, writeScriptBin, electron, bash, gnutar }:
+{ stdenv, fetchurl, runCommand, writeScriptBin, electron, bash, gnutar, pkgs, system, nodejs }:
 let
+nodePackages = import ./node { inherit pkgs system nodejs; };
 riot = stdenv.mkDerivation rec {
   name = "riot-desktop-${version}";
-  version = "0.9.9";
+  version = "0.11.3";
 
-  src = fetchFromGitHub {
-    owner = "vector-im";
-    repo = "riot-web";
-    rev = "v${version}";
-    sha256 = "1fbnv0bwsh76saghnc1qd56sqajdp65bmxrswnqbj7pncxdg0v96";
+  src = fetchurl {
+    url = "https://github.com/vector-im/riot-web/releases/download/v${version}/riot-v${version}.tar.gz";
+    sha256 = "0znh3armdxpa9kir9pqxx7zb6an8bydya96713zpjwfsf6fja84b";
   };
 
-  packaged = fetchurl {
-    url = "https://github.com/vector-im/riot-web/releases/download/v${version}/vector-v${version}.tar.gz";
-    sha256 = "0yy9lzqq6nr0221171rx6z2b0wblcrc4a77cp3ghihj1x3pd7710";
-  };
+  nativeBuildInputs = [ gnutar ];
 
-  buildInputs = [ gnutar ];
-
-  dontBuild = true;
-
-  installPhase = ''
+  buildCommand = ''
     mkdir -p "$out/webapp"
-    tar xf ${packaged} -C "$out/webapp" --strip-components 1
-    cp -r electron "$out"
-    cp package.json "$out"
+    tar xf '${src}' --strip-components=1 -C "$out/webapp"
+    cp -r '${nodePackages."riot-web-file:../riot-web/electron_app"}/lib/node_modules/riot-web/' "$out/electron"
   '';
 };
 in writeScriptBin "riot" ''
   #!${bash}/bin/sh
-  ${electron}/bin/electron "${riot}" "$@"
+  ${electron}/bin/electron "${riot}/electron" "$@"
 ''
