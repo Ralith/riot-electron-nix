@@ -3,11 +3,11 @@ let
 nodePackages = import ./node { inherit pkgs system nodejs; };
 riot = stdenv.mkDerivation rec {
   name = "riot-desktop-${version}";
-  version = "0.11.3";
+  version = "0.11.4";
 
   src = fetchurl {
     url = "https://github.com/vector-im/riot-web/releases/download/v${version}/riot-v${version}.tar.gz";
-    sha256 = "0znh3armdxpa9kir9pqxx7zb6an8bydya96713zpjwfsf6fja84b";
+    sha256 = "1chw9pv2avqkhhyf9h9q4dnqqr8xsf97zck45zrwc27ck2rqwavr";
   };
 
   nativeBuildInputs = [ gnutar ];
