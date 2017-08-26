@@ -1270,7 +1270,7 @@ in
   "riot-web-file:../riot-web/electron_app" = nodeEnv.buildNodePackage {
     name = "riot-web";
     packageName = "riot-web";
-    version = "0.12.1";
+    version = "0.12.2";
     src = ../riot-web/electron_app;
     dependencies = [
       sources."auto-launch-5.0.1"
