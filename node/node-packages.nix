@@ -202,13 +202,13 @@ let
         sha1 = "bb7e7c710de6bcafcb13cb3b8c81e0c0131ecbc9";
       };
     };
-    "mime-1.3.6" = {
+    "mime-1.4.0" = {
       name = "mime";
       packageName = "mime";
-      version = "1.3.6";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime/-/mime-1.3.6.tgz";
-        sha1 = "591d84d3653a6b0b4a3b9df8de5aa8108e72e5e0";
+        url = "https://registry.npmjs.org/mime/-/mime-1.4.0.tgz";
+        sha1 = "69e9e0db51d44f2a3b56e48b7817d7d137f1a343";
       };
     };
     "pixelmatch-4.0.2" = {
@@ -553,13 +553,13 @@ let
         sha1 = "1296a2d58fd45f19a0f6ce01d65701e2c735b6eb";
       };
     };
-    "mime-types-2.1.16" = {
+    "mime-types-2.1.17" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.16";
+      version = "2.1.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.16.tgz";
-        sha1 = "2b858a52e5ecd516db897ac2be87487830698e23";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.17.tgz";
+        sha1 = "09d7a393f03e995a79f8af857b70a9e0ab16557a";
       };
     };
     "oauth-sign-0.8.2" = {
@@ -868,13 +868,13 @@ let
         sha1 = "63bc5dcb61331b92bc05fd528953c33462a06f8d";
       };
     };
-    "mime-db-1.29.0" = {
+    "mime-db-1.30.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.29.0";
+      version = "1.30.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.29.0.tgz";
-        sha1 = "48d26d235589651704ac5916ca06001914266878";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.30.0.tgz";
+        sha1 = "74c643da2dd9d6a45399963465b26d5ca7d71f01";
       };
     };
     "punycode-1.4.1" = {
@@ -1270,7 +1270,7 @@ in
   "riot-web-file:../riot-web/electron_app" = nodeEnv.buildNodePackage {
     name = "riot-web";
     packageName = "riot-web";
-    version = "0.12.2";
+    version = "0.12.3";
     src = ../riot-web/electron_app;
     dependencies = [
       sources."auto-launch-5.0.1"
@@ -1298,7 +1298,7 @@ in
       sources."file-type-3.9.0"
       sources."jpeg-js-0.2.0"
       sources."load-bmfont-1.3.0"
-      sources."mime-1.3.6"
+      sources."mime-1.4.0"
       sources."pixelmatch-4.0.2"
       sources."pngjs-3.3.0"
       sources."read-chunk-1.0.1"
@@ -1337,7 +1337,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."isstream-0.1.2"
       sources."json-stringify-safe-5.0.1"
-      sources."mime-types-2.1.16"
+      sources."mime-types-2.1.17"
       sources."oauth-sign-0.8.2"
       sources."performance-now-0.2.0"
       sources."qs-6.4.0"
@@ -1391,7 +1391,7 @@ in
       sources."tweetnacl-0.14.5"
       sources."ecc-jsbn-0.1.1"
       sources."bcrypt-pbkdf-1.0.1"
-      sources."mime-db-1.29.0"
+      sources."mime-db-1.30.0"
       sources."punycode-1.4.1"
       sources."stream-to-0.2.2"
       sources."ip-regex-1.0.3"
