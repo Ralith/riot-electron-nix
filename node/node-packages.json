@@ -1,1 +1,3 @@
-[ { "riot-web" : "file:../riot-web/electron_app" } ]
+[ { "riot-web" : "file:../riot-web/electron_app" },
+  { "riot-web" : "file:../riot-web" }
+]
