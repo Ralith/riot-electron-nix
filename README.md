@@ -7,5 +7,5 @@ built against `nixos-unstable`.
 If this package is defined as `riot` is defined in your packageOverrides, it can be installed against unstable with
 `nix-env -f https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz -iA riot`
 
-To update to a new version, update the riot-web submodule and run `node2nix -d -6 -i node-packages.json` in the node
+To update to a new version, update the riot-web submodule and run `./generate.sh` in the node
 subdirectory, then update the root default.nix as usual.
