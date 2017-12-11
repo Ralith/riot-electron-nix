@@ -9,7 +9,7 @@ riot-web = nodePackages."riot-web-file:../riot-web".override (old: {
 });
 in stdenv.mkDerivation rec {
   name = "riot-desktop-${version}";
-  version = "0.13.1";
+  version = "0.13.3";
 
   buildCommand = ''
     mkdir -p "$out"
