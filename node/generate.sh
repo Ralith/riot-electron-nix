@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 rm -f default.nix node-packages.nix node-env.nix
-"$(nix-build ./node2nix.nix --no-out-link)/bin/node2nix" \
+nix run -f ./node2nix.nix -c node2nix \
   --development \
   --nodejs-6 \
   --input node-packages.json \
