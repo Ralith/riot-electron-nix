@@ -1,13 +1,7 @@
-{ stdenv, electron, pkgs, system, nodejs, makeDesktopItem }:
+{ stdenv, electron, pkgs, system, nodejs, makeDesktopItem, riot-web }:
 let
 nodePackages = import ./node { inherit pkgs system nodejs; };
-riot-web = nodePackages."riot-web-file:../riot-web".override (attrs: {
-  postInstall = ''
-    echo "building..."
-    npm run build
-    echo '${attrs.version}' > "webapp/version"
-  '';
-});
+
 desktopItem = makeDesktopItem {
   name = "riot";
   desktopName = "Riot";
@@ -26,8 +20,8 @@ in stdenv.mkDerivation {
 
   buildCommand = ''
     mkdir -p "$out/share/riot"
-    ln -s '${riot-web}/lib/node_modules/riot-web/webapp' "$out/share/riot/webapp"
-    cp -r '${nodePackages."riot-web-file:../riot-web/electron_app"}/lib/node_modules/riot-web/' "$out/share/riot/electron"
+    ln -s '${riot-web}' "$out/share/riot/webapp"
+    cp -r '${nodePackages."riot-desktop-file:../riot-web/electron_app"}/lib/node_modules/riot-web/' "$out/share/riot/electron"
 
     for i in 16 24 48 64 96 128 256 512; do
       mkdir -p "$out/share/icons/hicolor/''${i}x''${i}/apps"
