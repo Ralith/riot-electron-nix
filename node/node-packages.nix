@@ -49,13 +49,13 @@ let
         sha512 = "1ckkiinq2qacafwxbnr853w9h1szzm5hrkqcvmkr7wmbafabh1wab6drjr2h3ghpm3m0vb6fbjbvrnivdnl2dl2n89vl6npnddq8lg9";
       };
     };
-    "@types/node-9.6.21" = {
+    "@types/node-9.6.22" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "9.6.21";
+      version = "9.6.22";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-9.6.21.tgz";
-        sha512 = "3n2g5wdwppphgaxing5vdzidpiggibfdwci4l522hm4v4p49gas7fsld0k51g8vf09k65y7d4cq6h0dr76sbrsvy58wn4pigjcbl16d";
+        url = "https://registry.npmjs.org/@types/node/-/node-9.6.22.tgz";
+        sha512 = "029z88xrbdj4nj9krawd3a22gcdvjl86szxxpg9cah3f0kwvfr772lyp1ml50r3s91052i2jizvgbc0cysb0f233w6wjm3k9h93v224";
       };
     };
     "accepts-1.3.3" = {
@@ -85,13 +85,13 @@ let
         sha1 = "45e37fb39e8da3f25baee3ff5369e2bb5f22017a";
       };
     };
-    "acorn-5.6.2" = {
+    "acorn-5.7.1" = {
       name = "acorn";
       packageName = "acorn";
-      version = "5.6.2";
+      version = "5.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-5.6.2.tgz";
-        sha512 = "2xy044ibkfyb71si1az16c4bbfbikr65l8z8jsg89xg2rhdbyk1fmiy9zrxr3p0qky41jvnqsa8rp5nww3pldpgycr628sx9vafhk6d";
+        url = "https://registry.npmjs.org/acorn/-/acorn-5.7.1.tgz";
+        sha512 = "1ahdw8l42nvwy1m4d19pymmg1gw31paak1m0bxj371s82vi8paqj582ixqk6p8924y4dp54czbrqngbd9wnwbwvmv00wah62p2dpsbp";
       };
     };
     "acorn-jsx-3.0.1" = {
@@ -1750,13 +1750,13 @@ let
         sha1 = "308beeaffdf28119051efa1d932213c91b8f92e7";
       };
     };
-    "caniuse-db-1.0.30000851" = {
+    "caniuse-db-1.0.30000856" = {
       name = "caniuse-db";
       packageName = "caniuse-db";
-      version = "1.0.30000851";
+      version = "1.0.30000856";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000851.tgz";
-        sha1 = "8a0d3ca4dde72068560acc98bacf75a359e8d3e3";
+        url = "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000856.tgz";
+        sha1 = "fbebb99abe15a5654fc7747ebb5315bdfde3358f";
       };
     };
     "capture-stack-trace-1.0.0" = {
@@ -1948,22 +1948,22 @@ let
         sha1 = "bdb6c69ce660fadffe0b0007cc447e1b9f7282bd";
       };
     };
-    "color-convert-1.9.1" = {
+    "color-convert-1.9.2" = {
       name = "color-convert";
       packageName = "color-convert";
-      version = "1.9.1";
+      version = "1.9.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-convert/-/color-convert-1.9.1.tgz";
-        sha512 = "32rj1090g95xcvm0d2ya6jbqdhiy9w2wv3picdy33fzrm455v0gi7g4n8lw0n31g37wwbdnz7lxjsisgbsaqz1d10j9nh5hi2f9lccs";
+        url = "https://registry.npmjs.org/color-convert/-/color-convert-1.9.2.tgz";
+        sha512 = "173hv9fwlbqicbhb2gs0c878h407kp4ihfq0rinxdwdaz4lcad70jwciyb3si019qc4j6d8mb90g6j0jkyzdjfbkx7wg1acv1jhkmfw";
       };
     };
-    "color-name-1.1.3" = {
+    "color-name-1.1.1" = {
       name = "color-name";
       packageName = "color-name";
-      version = "1.1.3";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz";
-        sha1 = "a7d0558bd89c42f795dd42328f740831ca53bc25";
+        url = "https://registry.npmjs.org/color-name/-/color-name-1.1.1.tgz";
+        sha1 = "4b1415304cf50028ea81643643bd82ea05803689";
       };
     };
     "colors-1.3.0" = {
@@ -3478,13 +3478,13 @@ let
         sha1 = "ad4308b8f232fb3c73603349ea725d1e9c39323c";
       };
     };
-    "fbjs-0.8.16" = {
+    "fbjs-0.8.17" = {
       name = "fbjs";
       packageName = "fbjs";
-      version = "0.8.16";
+      version = "0.8.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fbjs/-/fbjs-0.8.16.tgz";
-        sha1 = "5e67432f550dc41b572bf55847b8aca64e5337db";
+        url = "https://registry.npmjs.org/fbjs/-/fbjs-0.8.17.tgz";
+        sha1 = "c4d598ead6949112653d6588b01a5cdcd9f90fdd";
       };
     };
     "figures-1.7.0" = {
@@ -3640,13 +3640,13 @@ let
         sha1 = "2c6ac652d4337488968489c6586f3aff26a38ea4";
       };
     };
-    "focus-trap-2.4.5" = {
+    "focus-trap-2.4.6" = {
       name = "focus-trap";
       packageName = "focus-trap";
-      version = "2.4.5";
+      version = "2.4.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/focus-trap/-/focus-trap-2.4.5.tgz";
-        sha512 = "0wj6sw32yljspcgrw34f4ffx07s31jxk5pf2f0z0zhwa89nfqmqm3m8d9z1hn5sav53xxzmaja3nc8480aimf1xzcqqlvwg3q7gnk4f";
+        url = "https://registry.npmjs.org/focus-trap/-/focus-trap-2.4.6.tgz";
+        sha512 = "0352h733379sjx2iimqzj64y9jmzai2y900kz5cwi9fzdh3czz8f0kmjms5wm9lvk212r22cqzk4ywi8y94ahv6r5l91sjls0z56rmx";
       };
     };
     "focus-trap-react-3.1.2" = {
@@ -4118,13 +4118,13 @@ let
         sha1 = "e6d9dbe57cbefe60751f02af336195870c90c01e";
       };
     };
-    "hoist-non-react-statics-2.5.3" = {
+    "hoist-non-react-statics-2.5.4" = {
       name = "hoist-non-react-statics";
       packageName = "hoist-non-react-statics";
-      version = "2.5.3";
+      version = "2.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-2.5.3.tgz";
-        sha512 = "3hbwidvss2lfd0nhxjb78a1p2xm0vkqs0lhn4n4bm5ay17737rw3s8s6ikml7za3f8as4dlv3cfpq2lw7qild9gsfwd0dxagn71qr0w";
+        url = "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-2.5.4.tgz";
+        sha512 = "39hzy3p5am5fwfxrq3gn0rr7a9z4j1g93dsfy6b0gblgr7vq1b7y0l3azq57yzakd479rgjnzzpxdw7ak6a6k9z1xwzpl13qssmfjfa";
       };
     };
     "home-or-tmp-2.0.0" = {
@@ -5531,13 +5531,13 @@ let
         sha1 = "8b3aac588b8a66e4975e3cdea67f7bb329601fac";
       };
     };
-    "matrix-js-sdk-0.10.3" = {
+    "matrix-js-sdk-0.10.4" = {
       name = "matrix-js-sdk";
       packageName = "matrix-js-sdk";
-      version = "0.10.3";
+      version = "0.10.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/matrix-js-sdk/-/matrix-js-sdk-0.10.3.tgz";
-        sha512 = "3b074pb4xll3hbjqsz8ig2kxjd2rac9lnr664zwsyw2lz3micsyvp1zw29ildgc8axbzx5ai4xp5q57pw5z8znyd4ci3cp3sc056mpw";
+        url = "https://registry.npmjs.org/matrix-js-sdk/-/matrix-js-sdk-0.10.4.tgz";
+        sha512 = "0a8n01g67vrk33k9pzcqp53xaswkzz4g9jg5a52hf14af1p9rkjxrx7fx5sqah1s7v50cgz0pm98gahgp8v75ydpbz6mlm5x7qv8qwf";
       };
     };
     "matrix-mock-request-1.2.1" = {
@@ -5549,13 +5549,13 @@ let
         sha1 = "d9a5aba8d3d8246e88ff7632598b99c1413f4232";
       };
     };
-    "matrix-react-sdk-0.12.6" = {
+    "matrix-react-sdk-0.12.7" = {
       name = "matrix-react-sdk";
       packageName = "matrix-react-sdk";
-      version = "0.12.6";
+      version = "0.12.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/matrix-react-sdk/-/matrix-react-sdk-0.12.6.tgz";
-        sha512 = "38q6lwi2g9pvf4lc4gfvd04n71cqa71qdcp4al8k2yy3i3r7c3d4fq5xbwsj09ki7scigd1gfrpmkwca9vk6fsg3nrxzwp1s6qls4p3";
+        url = "https://registry.npmjs.org/matrix-react-sdk/-/matrix-react-sdk-0.12.7.tgz";
+        sha512 = "28jkmwjn5rjbdycm5acm072iq7ap1dwsqd4ppkd03gd4480b579c3lfllinsva5zwp77nmhc50dam85gkaipc5nvv6q2nli8bzkdv95";
       };
     };
     "matrix-react-test-utils-0.2.1" = {
@@ -6962,13 +6962,13 @@ let
         sha1 = "dba0434ab439cfe82f108f0f511663908179aa72";
       };
     };
-    "react-16.4.0" = {
+    "react-16.4.1" = {
       name = "react";
       packageName = "react";
-      version = "16.4.0";
+      version = "16.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/react/-/react-16.4.0.tgz";
-        sha512 = "10jbn3xxsxa4hwlh3jl50w8h8ckn5s92vbi1jrkqys5sks0jhqbrkzrk9q2la5nyh6w7s6wdfiknhr93gdg6vkjwqgyj0fjnn82ni9b";
+        url = "https://registry.npmjs.org/react/-/react-16.4.1.tgz";
+        sha512 = "312p2jwhmb71rfw5r5kh59qfxn027955jnll0s0dwp09dhnh5phbmjy5xmqvnyp3zlbp9z78f0rhafhpa8gbn0z78sa39wa1392qqfw";
       };
     };
     "react-addons-css-transition-group-15.3.2" = {
@@ -7016,13 +7016,13 @@ let
         sha1 = "41cfadf693b757faf2708443a1d1fd5a02bef730";
       };
     };
-    "react-dom-16.4.0" = {
+    "react-dom-16.4.1" = {
       name = "react-dom";
       packageName = "react-dom";
-      version = "16.4.0";
+      version = "16.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/react-dom/-/react-dom-16.4.0.tgz";
-        sha512 = "3mlnwxjxfvdxihfpf25hsrsplfjj5d4qynf76wy5ch95249nhbygzd20w7jpvq3q4hwm91jvjvvc8d5azphvcfwl3c4j119fvwdvckd";
+        url = "https://registry.npmjs.org/react-dom/-/react-dom-16.4.1.tgz";
+        sha512 = "3h7y7kd5fdvan1z2i19rl7ha7hgifglb7xiaswc36xl85f8g326p5rjh8d80yh99cqyivikxgc5f48gypx75al0jzhgw5r113xsfs6l";
       };
     };
     "react-gemini-scrollbar-git://github.com/matrix-org/react-gemini-scrollbar#5e97aef" = {
@@ -7413,13 +7413,13 @@ let
         sha1 = "efdaa98ea7451324d092b2b2163a6a1d7a9a2147";
       };
     };
-    "resolve-1.7.1" = {
+    "resolve-1.8.0" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.7.1";
+      version = "1.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.7.1.tgz";
-        sha512 = "1zhdyfbs9gfd5iswb8dbra3gljv9mglapgcirci1zsfs78rfn557rp6z81drxxsz0m4w4imm2n9qf7yrchkfjhxz9a0vwp9hwpg1fkk";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.8.0.tgz";
+        sha512 = "3ix0a2wq8xdmkbqf4rsf5byhs6in5qagab4f5mb57sch0yzfbh37xxyh8fvg7lm02f432yszyyxdq3664bwlhrh2im25xnarwkk1mrh";
       };
     };
     "resolve-from-1.0.1" = {
@@ -9220,10 +9220,10 @@ in
   "riot-web-file:../riot-web/electron_app" = nodeEnv.buildNodePackage {
     name = "riot-web";
     packageName = "riot-web";
-    version = "0.15.4";
+    version = "0.15.5";
     src = ../riot-web/electron_app;
     dependencies = [
-      sources."@types/node-9.6.21"
+      sources."@types/node-9.6.22"
       sources."ajv-5.5.2"
       sources."applescript-1.0.0"
       sources."asn1-0.2.3"
@@ -9333,7 +9333,7 @@ in
   "riot-web-file:../riot-web" = nodeEnv.buildNodePackage {
     name = "riot-web";
     packageName = "riot-web";
-    version = "0.15.4";
+    version = "0.15.5";
     src = ../riot-web;
     dependencies = [
       sources."7zip-0.0.6"
@@ -9342,7 +9342,7 @@ in
       sources."7zip-bin-mac-1.0.1"
       sources."7zip-bin-win-2.1.1"
       sources."accepts-1.3.3"
-      sources."acorn-5.6.2"
+      sources."acorn-5.7.1"
       (sources."acorn-jsx-3.0.1" // {
         dependencies = [
           sources."acorn-3.3.0"
@@ -9556,7 +9556,7 @@ in
       sources."camelcase-3.0.0"
       sources."camelcase-css-1.0.1"
       sources."camelcase-keys-2.1.0"
-      sources."caniuse-db-1.0.30000851"
+      sources."caniuse-db-1.0.30000856"
       sources."capture-stack-trace-1.0.0"
       sources."caseless-0.12.0"
       sources."center-align-0.1.3"
@@ -9574,8 +9574,8 @@ in
       sources."clone-1.0.4"
       sources."co-4.6.0"
       sources."code-point-at-1.1.0"
-      sources."color-convert-1.9.1"
-      sources."color-name-1.1.3"
+      sources."color-convert-1.9.2"
+      sources."color-name-1.1.1"
       sources."colors-1.3.0"
       (sources."combine-lists-1.0.1" // {
         dependencies = [
@@ -9802,10 +9802,10 @@ in
       sources."faye-websocket-0.10.0"
       (sources."fbemitter-2.1.1" // {
         dependencies = [
-          sources."fbjs-0.8.16"
+          sources."fbjs-0.8.17"
         ];
       })
-      sources."fbjs-0.8.16"
+      sources."fbjs-0.8.17"
       sources."figures-1.7.0"
       sources."file-0.2.2"
       sources."file-entry-cache-2.0.0"
@@ -9825,7 +9825,7 @@ in
           sources."whatwg-fetch-0.9.0"
         ];
       })
-      sources."focus-trap-2.4.5"
+      sources."focus-trap-2.4.6"
       sources."focus-trap-react-3.1.2"
       sources."follow-redirects-1.5.0"
       sources."for-in-1.0.2"
@@ -9874,7 +9874,7 @@ in
       sources."has-flag-3.0.0"
       sources."he-1.1.1"
       sources."highlight.js-9.12.0"
-      sources."hoist-non-react-statics-2.5.3"
+      sources."hoist-non-react-statics-2.5.4"
       sources."home-or-tmp-2.0.0"
       sources."hosted-git-info-2.6.0"
       (sources."html-minifier-3.5.16" // {
@@ -10037,9 +10037,9 @@ in
       sources."levn-0.3.0"
       (sources."linkifyjs-2.1.6" // {
         dependencies = [
-          sources."fbjs-0.8.16"
-          sources."react-16.4.0"
-          sources."react-dom-16.4.0"
+          sources."fbjs-0.8.17"
+          sources."react-16.4.1"
+          sources."react-dom-16.4.1"
         ];
       })
       sources."load-json-file-1.1.0"
@@ -10065,9 +10065,9 @@ in
       sources."macaddress-0.2.8"
       sources."map-obj-1.0.1"
       sources."math-random-1.0.1"
-      sources."matrix-js-sdk-0.10.3"
+      sources."matrix-js-sdk-0.10.4"
       sources."matrix-mock-request-1.2.1"
-      (sources."matrix-react-sdk-0.12.6" // {
+      (sources."matrix-react-sdk-0.12.7" // {
         dependencies = [
           sources."core-js-1.2.7"
           sources."fbjs-0.1.0-alpha.7"
@@ -10398,7 +10398,7 @@ in
       sources."requirejs-2.1.22"
       sources."requires-port-1.0.0"
       sources."reselect-3.0.1"
-      sources."resolve-1.7.1"
+      sources."resolve-1.8.0"
       sources."resolve-from-1.0.1"
       sources."restore-cursor-1.0.1"
       sources."right-align-0.1.3"
