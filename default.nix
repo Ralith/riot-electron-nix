@@ -1,7 +1,7 @@
 { stdenv, electron, pkgs, system, nodejs, makeDesktopItem }:
 let
 nodePackages = import ./node { inherit pkgs system nodejs; };
-riot-web = nodePackages."riot-web-file:riot-web".override (attrs: {
+riot-web = nodePackages."riot-web-file:../riot-web".override (attrs: {
   postInstall = ''
     echo "building..."
     patchShebangs .
@@ -29,7 +29,7 @@ in stdenv.mkDerivation {
     mkdir -p "$out/share/riot"
     ln -s '${riot-web}/lib/node_modules/riot-web/webapp' "$out/share/riot/webapp"
     ln -s '${riot-web}/lib/node_modules/riot-web/origin_migrator' "$out/share/riot/origin_migrator"
-    cp -r '${nodePackages."riot-web-file:riot-web/electron_app"}/lib/node_modules/riot-web/' "$out/share/riot/electron"
+    cp -r '${nodePackages."riot-web-file:../riot-web/electron_app"}/lib/node_modules/riot-web/' "$out/share/riot/electron"
 
     for i in 16 24 48 64 96 128 256 512; do
       mkdir -p "$out/share/icons/hicolor/''${i}x''${i}/apps"

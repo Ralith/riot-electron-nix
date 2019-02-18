@@ -166,166 +166,166 @@ let
         sha512 = "SpeVQJFekfnEaZZO1yl4je/36upII36L7gOT4DBx51B1GeAB45mmDb3a5OBQB+ZeFxVVOP37r8Owsl940G/fBg==";
       };
     };
-    "@webassemblyjs/ast-1.8.2" = {
+    "@webassemblyjs/ast-1.8.3" = {
       name = "_at_webassemblyjs_slash_ast";
       packageName = "@webassemblyjs/ast";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.8.2.tgz";
-        sha512 = "5LLqqVsXZAhAJN0S7fTi11jwMJOjfR8290V0V7BWKgmZ36VVE6ZGuH4BN3eLt7LvNMIgyuYwyrPwiz6f3SGlBQ==";
+        url = "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.8.3.tgz";
+        sha512 = "xy3m06+Iu4D32+6soz6zLnwznigXJRuFNTovBX2M4GqVqLb0dnyWLbPnpcXvUSdEN+9DVyDeaq2jyH1eIL2LZQ==";
       };
     };
-    "@webassemblyjs/floating-point-hex-parser-1.8.2" = {
+    "@webassemblyjs/floating-point-hex-parser-1.8.3" = {
       name = "_at_webassemblyjs_slash_floating-point-hex-parser";
       packageName = "@webassemblyjs/floating-point-hex-parser";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.2.tgz";
-        sha512 = "5WIj+pSzbs8ao7NM31xFcGeOSnXgpCikmCFRYkXygVDqVaXTq/Hr9roqarUVMNfAegNc61oKEhe3pi+HUCXJEw==";
+        url = "https://registry.npmjs.org/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.3.tgz";
+        sha512 = "vq1TISG4sts4f0lDwMUM0f3kpe0on+G3YyV5P0IySHFeaLKRYZ++n2fCFfG4TcCMYkqFeTUYFxm75L3ddlk2xA==";
       };
     };
-    "@webassemblyjs/helper-api-error-1.8.2" = {
+    "@webassemblyjs/helper-api-error-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-api-error";
       packageName = "@webassemblyjs/helper-api-error";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.8.2.tgz";
-        sha512 = "TJBDJPXO9DSC4qf5FZT0VFlTdJSm4DKxzcoyWwVike1aQQQEbCk167MJxYLi0SuHeOtULLtDDSZL7yDL3XXMKA==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.8.3.tgz";
+        sha512 = "BmWEynI4FnZbjk8CaYZXwcv9a6gIiu+rllRRouQUo73hglanXD3AGFJE7Q4JZCoVE0p5/jeX6kf5eKa3D4JxwQ==";
       };
     };
-    "@webassemblyjs/helper-buffer-1.8.2" = {
+    "@webassemblyjs/helper-buffer-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-buffer";
       packageName = "@webassemblyjs/helper-buffer";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-buffer/-/helper-buffer-1.8.2.tgz";
-        sha512 = "6fTynU6b0bC+yBH7+M6/BBRZId4F1fIuX00G1ZX45EAQOrB8p4TK5bccAEPG2vuyvnd4tgB1/4cYXq5GpszMGA==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-buffer/-/helper-buffer-1.8.3.tgz";
+        sha512 = "iVIMhWnNHoFB94+/2l7LpswfCsXeMRnWfExKtqsZ/E2NxZyUx9nTeKK/MEMKTQNEpyfznIUX06OchBHQ+VKi/Q==";
       };
     };
-    "@webassemblyjs/helper-code-frame-1.8.2" = {
+    "@webassemblyjs/helper-code-frame-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-code-frame";
       packageName = "@webassemblyjs/helper-code-frame";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-code-frame/-/helper-code-frame-1.8.2.tgz";
-        sha512 = "5beYTZS4Wsscu8ys2cLZ0SiToEe1wNitzrV/jCr02wGPOcpPHf0ERImR6iBGe/LX0O2cV9Pgi78hFp5WfNKeAg==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-code-frame/-/helper-code-frame-1.8.3.tgz";
+        sha512 = "K1UxoJML7GKr1QXR+BG7eXqQkvu+eEeTjlSl5wUFQ6W6vaOc5OwSxTcb3oE9x/3+w4NHhrIKD4JXXCZmLdL2cg==";
       };
     };
-    "@webassemblyjs/helper-fsm-1.8.2" = {
+    "@webassemblyjs/helper-fsm-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-fsm";
       packageName = "@webassemblyjs/helper-fsm";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.2.tgz";
-        sha512 = "7xRO1lFNj1fGm+ik73n8TuWXKeAqTuqeApqnxWnW+nI2lPyj4awrt+n1XkQr8OwmVK7mFJSRuTZc568qtgOyzQ==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.3.tgz";
+        sha512 = "387zipfrGyO77/qm7/SDUiZBjQ5KGk4qkrVIyuoubmRNIiqn3g+6ijY8BhnlGqsCCQX5bYKOnttJobT5xoyviA==";
       };
     };
-    "@webassemblyjs/helper-module-context-1.8.2" = {
+    "@webassemblyjs/helper-module-context-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-module-context";
       packageName = "@webassemblyjs/helper-module-context";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-module-context/-/helper-module-context-1.8.2.tgz";
-        sha512 = "EBr+n9M2F7PQ02s0f87KnSPva0KlT2S4IGDP+7aYqt2FCaMZzCtXcVahGSGg3ESZBSD0gzFU4486zD7SUsSD0Q==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-module-context/-/helper-module-context-1.8.3.tgz";
+        sha512 = "lPLFdQfaRssfnGEJit5Sk785kbBPPPK4ZS6rR5W/8hlUO/5v3F+rN8XuUcMj/Ny9iZiyKhhuinWGTUuYL4VKeQ==";
       };
     };
-    "@webassemblyjs/helper-wasm-bytecode-1.8.2" = {
+    "@webassemblyjs/helper-wasm-bytecode-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-wasm-bytecode";
       packageName = "@webassemblyjs/helper-wasm-bytecode";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.8.2.tgz";
-        sha512 = "gS0trUUPYevbs5Rsv9E+VbzDuZ9KB4Tu/QymTfHtnSDpX4wxhs9u9/y/KiH84r0Z4xvm8/pqWnGvM77oxSPHYw==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.8.3.tgz";
+        sha512 = "R1nJW7bjyJLjsJQR5t3K/9LJ0QWuZezl8fGa49DZq4IVaejgvkbNlKEQxLYTC579zgT4IIIVHb5JA59uBPHXyw==";
       };
     };
-    "@webassemblyjs/helper-wasm-section-1.8.2" = {
+    "@webassemblyjs/helper-wasm-section-1.8.3" = {
       name = "_at_webassemblyjs_slash_helper-wasm-section";
       packageName = "@webassemblyjs/helper-wasm-section";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.8.2.tgz";
-        sha512 = "HLHOR6/Vc+f5UziOUNQ3f5YedCMCuU46BdMEhjQBQwlOWqVAxgwqUn/KJkuhMvvjQ2FkASaDup8ohZrjyCKDKg==";
+        url = "https://registry.npmjs.org/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.8.3.tgz";
+        sha512 = "P6F7D61SJY73Yz+fs49Q3+OzlYAZP86OfSpaSY448KzUy65NdfzDmo2NPVte+Rw4562MxEAacvq/mnDuvRWOcg==";
       };
     };
-    "@webassemblyjs/ieee754-1.8.2" = {
+    "@webassemblyjs/ieee754-1.8.3" = {
       name = "_at_webassemblyjs_slash_ieee754";
       packageName = "@webassemblyjs/ieee754";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.8.2.tgz";
-        sha512 = "v9RtqGJ+z8UweiRh47DheXVtV0d/o9sQfXzAX1/1n/nw5G85yEQJdHcmwiRdu+SXmqlZQeymsnmve2oianzW4g==";
+        url = "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.8.3.tgz";
+        sha512 = "UD4HuLU99hjIvWz1pD68b52qsepWQlYCxDYVFJQfHh3BHyeAyAlBJ+QzLR1nnS5J6hAzjki3I3AoJeobNNSZlg==";
       };
     };
-    "@webassemblyjs/leb128-1.8.2" = {
+    "@webassemblyjs/leb128-1.8.3" = {
       name = "_at_webassemblyjs_slash_leb128";
       packageName = "@webassemblyjs/leb128";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/leb128/-/leb128-1.8.2.tgz";
-        sha512 = "41zX+6xpo6G2bkq3mdr+K5nXx5OOL6V979ucbLyq1ra5dFI3ReLiw6+HOCF5ih0t5HMQVIQBhInZIdxqcpc/Qg==";
+        url = "https://registry.npmjs.org/@webassemblyjs/leb128/-/leb128-1.8.3.tgz";
+        sha512 = "XXd3s1BmkC1gpGABuCRLqCGOD6D2L+Ma2BpwpjrQEHeQATKWAQtxAyU9Z14/z8Ryx6IG+L4/NDkIGHrccEhRUg==";
       };
     };
-    "@webassemblyjs/utf8-1.8.2" = {
+    "@webassemblyjs/utf8-1.8.3" = {
       name = "_at_webassemblyjs_slash_utf8";
       packageName = "@webassemblyjs/utf8";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/utf8/-/utf8-1.8.2.tgz";
-        sha512 = "fP2Q4igo9/R82xeVra+zIQOjnmknSiAhykg//fz7c1UjghzoutQtldcbKOaL0+0j31RRFMDHgrUL+12RQExOYg==";
+        url = "https://registry.npmjs.org/@webassemblyjs/utf8/-/utf8-1.8.3.tgz";
+        sha512 = "Wv/WH9Zo5h5ZMyfCNpUrjFsLZ3X1amdfEuwdb7MLdG3cPAjRS6yc6ElULlpjLiiBTuzvmLhr3ENsuGyJ3wyCgg==";
       };
     };
-    "@webassemblyjs/wasm-edit-1.8.2" = {
+    "@webassemblyjs/wasm-edit-1.8.3" = {
       name = "_at_webassemblyjs_slash_wasm-edit";
       packageName = "@webassemblyjs/wasm-edit";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/wasm-edit/-/wasm-edit-1.8.2.tgz";
-        sha512 = "rM1sgdLQrXQs4ZapglK86mW8QMml0FJ+jwZ5961sEmHISTkJRvheILuzA9jcKy5vwhWgkPf/nIhO2I6A9rkGww==";
+        url = "https://registry.npmjs.org/@webassemblyjs/wasm-edit/-/wasm-edit-1.8.3.tgz";
+        sha512 = "nB19eUx3Yhi1Vvv3yev5r+bqQixZprMtaoCs1brg9Efyl8Hto3tGaUoZ0Yb4Umn/gQCyoEGFfUxPLp1/8+Jvnw==";
       };
     };
-    "@webassemblyjs/wasm-gen-1.8.2" = {
+    "@webassemblyjs/wasm-gen-1.8.3" = {
       name = "_at_webassemblyjs_slash_wasm-gen";
       packageName = "@webassemblyjs/wasm-gen";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/wasm-gen/-/wasm-gen-1.8.2.tgz";
-        sha512 = "WTBesrMydDwJbbB48OZGcMq6zDsT6CJd1UalvGuXtHJLargazOron+JBdmt8Nnd+Z2s3TPfCPP54EpQBsDVR7Q==";
+        url = "https://registry.npmjs.org/@webassemblyjs/wasm-gen/-/wasm-gen-1.8.3.tgz";
+        sha512 = "sDNmu2nLBJZ/huSzlJvd9IK8B1EjCsOl7VeMV9VJPmxKYgTJ47lbkSP+KAXMgZWGcArxmcrznqm7FrAPQ7vVGg==";
       };
     };
-    "@webassemblyjs/wasm-opt-1.8.2" = {
+    "@webassemblyjs/wasm-opt-1.8.3" = {
       name = "_at_webassemblyjs_slash_wasm-opt";
       packageName = "@webassemblyjs/wasm-opt";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/wasm-opt/-/wasm-opt-1.8.2.tgz";
-        sha512 = "tzXn0xNQNyoUBr1+O1rwYXZd2bcUdXSOUTu0fLAIPl01dcTY6hjIi2B2DXYqk9OVQRnjPyX2Ew6rkeCTxfaYaQ==";
+        url = "https://registry.npmjs.org/@webassemblyjs/wasm-opt/-/wasm-opt-1.8.3.tgz";
+        sha512 = "j8lmQVFR+FR4/645VNgV4R/Jz8i50eaPAj93GZyd3EIJondVshE/D9pivpSDIXyaZt+IkCodlzOoZUE4LnQbeA==";
       };
     };
-    "@webassemblyjs/wasm-parser-1.8.2" = {
+    "@webassemblyjs/wasm-parser-1.8.3" = {
       name = "_at_webassemblyjs_slash_wasm-parser";
       packageName = "@webassemblyjs/wasm-parser";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/wasm-parser/-/wasm-parser-1.8.2.tgz";
-        sha512 = "uc6nVjvUjZzHa8fSl0ko684puuw0ujfCYn19v5tTu0DQ7tXx9jlZXzYw0aW7fmROxyez7BcbJloYLmXg723vVQ==";
+        url = "https://registry.npmjs.org/@webassemblyjs/wasm-parser/-/wasm-parser-1.8.3.tgz";
+        sha512 = "NBI3SNNtRoy4T/KBsRZCAWUzE9lI94RH2nneLwa1KKIrt/2zzcTavWg6oY05ArCbb/PZDk3OUi63CD1RYtN65w==";
       };
     };
-    "@webassemblyjs/wast-parser-1.8.2" = {
+    "@webassemblyjs/wast-parser-1.8.3" = {
       name = "_at_webassemblyjs_slash_wast-parser";
       packageName = "@webassemblyjs/wast-parser";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/wast-parser/-/wast-parser-1.8.2.tgz";
-        sha512 = "idk8cCqM+T6/iIxoQCOz85vKvWhyHghJbICob/H1AN8byN1O6a2Jxk+g1ZJA7sZDc6/q8pYV6dVkHKgm8y1oUA==";
+        url = "https://registry.npmjs.org/@webassemblyjs/wast-parser/-/wast-parser-1.8.3.tgz";
+        sha512 = "gZPst4CNcmGtKC1eYQmgCx6gwQvxk4h/nPjfPBbRoD+Raw3Hs+BS3yhrfgyRKtlYP+BJ8LcY9iFODEQofl2qbg==";
       };
     };
-    "@webassemblyjs/wast-printer-1.8.2" = {
+    "@webassemblyjs/wast-printer-1.8.3" = {
       name = "_at_webassemblyjs_slash_wast-printer";
       packageName = "@webassemblyjs/wast-printer";
-      version = "1.8.2";
+      version = "1.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webassemblyjs/wast-printer/-/wast-printer-1.8.2.tgz";
-        sha512 = "TENFBgf5bKKfs2LbW8fd/0xvamccbEHoR83lQlEP7Qi0nkpXAP77VpvIITy0J+UZAa/Y3j6K6MPw1tNMbdjf4A==";
+        url = "https://registry.npmjs.org/@webassemblyjs/wast-printer/-/wast-printer-1.8.3.tgz";
+        sha512 = "DTA6kpXuHK4PHu16yAD9QVuT1WZQRT7079oIFFmFSjqjLWGXS909I/7kiLTn931mcj7wGsaUNungjwNQ2lGQ3Q==";
       };
     };
     "@xtuc/ieee754-1.2.0" = {
@@ -335,6 +335,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@xtuc/ieee754/-/ieee754-1.2.0.tgz";
         sha512 = "DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==";
+      };
+    };
+    "@xtuc/long-4.2.2" = {
+      name = "_at_xtuc_slash_long";
+      packageName = "@xtuc/long";
+      version = "4.2.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz";
+        sha512 = "NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==";
       };
     };
     "accepts-1.3.5" = {
@@ -3055,13 +3064,13 @@ let
         sha1 = "615e828e233dd1ab9bb9ae0950e0ceccfa6ecad8";
       };
     };
-    "date-names-0.1.12" = {
+    "date-names-0.1.13" = {
       name = "date-names";
       packageName = "date-names";
-      version = "0.1.12";
+      version = "0.1.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/date-names/-/date-names-0.1.12.tgz";
-        sha512 = "HYc4+Rl53sOHh9R0pgpgqzZy471E4cFXLOjJDQImGOAeacbAV87+RUO70iE1Mfvnp1yuS2V8Y+/n1nS7OoMYiw==";
+        url = "https://registry.npmjs.org/date-names/-/date-names-0.1.13.tgz";
+        sha512 = "IxxoeD9tdx8pXVcmqaRlPvrXIsSrSrIZzfzlOkm9u+hyzKp5Wk/odt9O/gd7Ockzy8n/WHeEpTVJ2bF3mMV4LA==";
       };
     };
     "date-now-0.1.4" = {
@@ -3820,13 +3829,13 @@ let
         sha1 = "1b61c0562190a8dff6ae3bb2cf0200ca130b86d4";
       };
     };
-    "eslint-5.14.0" = {
+    "eslint-5.14.1" = {
       name = "eslint";
       packageName = "eslint";
-      version = "5.14.0";
+      version = "5.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-5.14.0.tgz";
-        sha512 = "jrOhiYyENRrRnWlMYANlGZTqb89r2FuRT+615AabBoajhNjeh9ywDNlh2LU9vTqf0WYN+L3xdXuIi7xuj/tK9w==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-5.14.1.tgz";
+        sha512 = "CyUMbmsjxedx8B0mr79mNOqetvkbij/zrXnFeK2zc3pGRn3/tibjiNAv/3UxFEyfMDjh+ZqTrJrEGBFiGfD5Og==";
       };
     };
     "eslint-config-google-0.7.1" = {
@@ -6917,16 +6926,6 @@ let
         sha512 = "A5pN2tkFj7H0dGIAM6MFvHKMJcPnjZsOMvR7ujCjfgW5TbV6H9vb1PgxLtHvjqNZTHsUolz+6/WEO0N1xNx2ng==";
       };
     };
-    "long-git://github.com/dcodeIO/long.js.git#8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69" = {
-      name = "long";
-      packageName = "long";
-      version = "4.0.1";
-      src = fetchgit {
-        url = "git://github.com/dcodeIO/long.js.git";
-        rev = "8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69";
-        sha256 = "1914253810c1ba061c5ca0bd2a4b2fa9a88bb5f940d66432c7146b6c1f83ee92";
-      };
-    };
     "loose-envify-1.4.0" = {
       name = "loose-envify";
       packageName = "loose-envify";
@@ -6979,6 +6978,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/make-dir/-/make-dir-1.3.0.tgz";
         sha512 = "2w31R7SJtieJJnQtGc7RVL2StM2vGYVfqUOvUDxH6bC6aJTxPxTF0GnIgCyu7tjockiUWAYQRbxa7vKn34s5sQ==";
+      };
+    };
+    "mamacro-0.0.3" = {
+      name = "mamacro";
+      packageName = "mamacro";
+      version = "0.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/mamacro/-/mamacro-0.0.3.tgz";
+        sha512 = "qMEwh+UujcQ+kbz3T6V+wAmO2U8veoq2w+3wY8MquqwVA3jChfwY+Tk52GZKDfACEPjuZ7r2oJLejwpt8jtwTA==";
       };
     };
     "map-age-cleaner-0.1.3" = {
@@ -8476,13 +8484,13 @@ let
         sha512 = "J/TRomA8EqXhS4VjQJsPCYTFIa9FYN/dkJK/8oZ0BYeVIPx91goqM8T+ljsP57+4bwSEywFOuB7EZ8n1gjjxZw==";
       };
     };
-    "postcss-simple-vars-5.0.1" = {
+    "postcss-simple-vars-5.0.2" = {
       name = "postcss-simple-vars";
       packageName = "postcss-simple-vars";
-      version = "5.0.1";
+      version = "5.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/postcss-simple-vars/-/postcss-simple-vars-5.0.1.tgz";
-        sha512 = "nlulz+X0i8CH2e9IbxFfMD9rG4fGx+O4hH7Pwj0bZalRx91gvli85DAymqBQ35X7VBUackGD2iNj7DgsCbwQug==";
+        url = "https://registry.npmjs.org/postcss-simple-vars/-/postcss-simple-vars-5.0.2.tgz";
+        sha512 = "xWIufxBoINJv6JiLb7jl5oElgp+6puJwvT5zZHliUSydoLz4DADRB3NDDsYgfKVwojn4TDLiseoC65MuS8oGGg==";
       };
     };
     "postcss-strip-inline-comments-0.1.5" = {
@@ -11206,13 +11214,13 @@ let
         sha512 = "O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==";
       };
     };
-    "webpack-4.29.4" = {
+    "webpack-4.29.5" = {
       name = "webpack";
       packageName = "webpack";
-      version = "4.29.4";
+      version = "4.29.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/webpack/-/webpack-4.29.4.tgz";
-        sha512 = "Uu/QgPFZG+w+5wjWIFBgIy+g9vOF3QiLmT2Bl783MQSLjRF/K+GMv2TH3TVNFyPQVEHY8rVnPoQtcqrnqK2H7Q==";
+        url = "https://registry.npmjs.org/webpack/-/webpack-4.29.5.tgz";
+        sha512 = "DuWlYUT982c7XVHodrLO9quFbNpVq5FNxLrMUfYUTlgKW0+yPimynYf1kttSQpEneAL1FH3P3OLNgkyImx8qIQ==";
       };
     };
     "webpack-cli-3.2.3" = {
@@ -11641,11 +11649,11 @@ let
   };
 in
 {
-  "riot-web-file:riot-web/electron_app" = nodeEnv.buildNodePackage {
+  "riot-web-file:../riot-web/electron_app" = nodeEnv.buildNodePackage {
     name = "riot-web";
     packageName = "riot-web";
     version = "1.0.1";
-    src = ./riot-web/electron_app;
+    src = ../riot-web/electron_app;
     dependencies = [
       sources."@types/node-9.6.42"
       sources."ajv-6.9.1"
@@ -11761,11 +11769,11 @@ in
     bypassCache = true;
     reconstructLock = true;
   };
-  "riot-web-file:riot-web" = nodeEnv.buildNodePackage {
+  "riot-web-file:../riot-web" = nodeEnv.buildNodePackage {
     name = "riot-web";
     packageName = "riot-web";
     version = "1.0.1";
-    src = ./riot-web;
+    src = ../riot-web;
     dependencies = [
       sources."7zip-0.0.6"
       sources."7zip-bin-4.1.0"
@@ -11807,33 +11815,26 @@ in
       })
       sources."@mrmlnc/readdir-enhanced-2.2.1"
       sources."@nodelib/fs.stat-1.1.3"
-      sources."@webassemblyjs/ast-1.8.2"
-      sources."@webassemblyjs/floating-point-hex-parser-1.8.2"
-      sources."@webassemblyjs/helper-api-error-1.8.2"
-      sources."@webassemblyjs/helper-buffer-1.8.2"
-      sources."@webassemblyjs/helper-code-frame-1.8.2"
-      sources."@webassemblyjs/helper-fsm-1.8.2"
-      sources."@webassemblyjs/helper-module-context-1.8.2"
-      sources."@webassemblyjs/helper-wasm-bytecode-1.8.2"
-      sources."@webassemblyjs/helper-wasm-section-1.8.2"
-      sources."@webassemblyjs/ieee754-1.8.2"
-      (sources."@webassemblyjs/leb128-1.8.2" // {
-        dependencies = [
-          sources."long-git://github.com/dcodeIO/long.js.git#8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69"
-        ];
-      })
-      sources."@webassemblyjs/utf8-1.8.2"
-      sources."@webassemblyjs/wasm-edit-1.8.2"
-      sources."@webassemblyjs/wasm-gen-1.8.2"
-      sources."@webassemblyjs/wasm-opt-1.8.2"
-      sources."@webassemblyjs/wasm-parser-1.8.2"
-      sources."@webassemblyjs/wast-parser-1.8.2"
-      (sources."@webassemblyjs/wast-printer-1.8.2" // {
-        dependencies = [
-          sources."long-git://github.com/dcodeIO/long.js.git#8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69"
-        ];
-      })
+      sources."@webassemblyjs/ast-1.8.3"
+      sources."@webassemblyjs/floating-point-hex-parser-1.8.3"
+      sources."@webassemblyjs/helper-api-error-1.8.3"
+      sources."@webassemblyjs/helper-buffer-1.8.3"
+      sources."@webassemblyjs/helper-code-frame-1.8.3"
+      sources."@webassemblyjs/helper-fsm-1.8.3"
+      sources."@webassemblyjs/helper-module-context-1.8.3"
+      sources."@webassemblyjs/helper-wasm-bytecode-1.8.3"
+      sources."@webassemblyjs/helper-wasm-section-1.8.3"
+      sources."@webassemblyjs/ieee754-1.8.3"
+      sources."@webassemblyjs/leb128-1.8.3"
+      sources."@webassemblyjs/utf8-1.8.3"
+      sources."@webassemblyjs/wasm-edit-1.8.3"
+      sources."@webassemblyjs/wasm-gen-1.8.3"
+      sources."@webassemblyjs/wasm-opt-1.8.3"
+      sources."@webassemblyjs/wasm-parser-1.8.3"
+      sources."@webassemblyjs/wast-parser-1.8.3"
+      sources."@webassemblyjs/wast-printer-1.8.3"
       sources."@xtuc/ieee754-1.2.0"
+      sources."@xtuc/long-4.2.2"
       sources."accepts-1.3.5"
       sources."acorn-6.1.0"
       sources."acorn-dynamic-import-4.0.0"
@@ -12369,7 +12370,7 @@ in
       sources."dashdash-1.14.1"
       sources."date-fns-1.30.1"
       sources."date-format-1.2.0"
-      sources."date-names-0.1.12"
+      sources."date-names-0.1.13"
       sources."date-now-0.1.4"
       sources."debug-3.2.6"
       sources."decamelize-1.2.0"
@@ -12506,7 +12507,7 @@ in
       sources."es-to-primitive-1.2.0"
       sources."escape-html-1.0.3"
       sources."escape-string-regexp-1.0.5"
-      (sources."eslint-5.14.0" // {
+      (sources."eslint-5.14.1" // {
         dependencies = [
           sources."@babel/code-frame-7.0.0"
           sources."@babel/highlight-7.0.0"
@@ -13103,7 +13104,6 @@ in
       sources."log4js-3.0.6"
       sources."loglevel-1.6.1"
       sources."lolex-2.3.2"
-      sources."long-git://github.com/dcodeIO/long.js.git#8181a6b50a2a230f0b2a1e4c4093f9b9d19c8b69"
       sources."loose-envify-1.4.0"
       sources."lower-case-1.1.4"
       sources."lowercase-keys-1.0.1"
@@ -13113,6 +13113,7 @@ in
           sources."pify-3.0.0"
         ];
       })
+      sources."mamacro-0.0.3"
       sources."map-age-cleaner-0.1.3"
       sources."map-cache-0.2.2"
       sources."map-visit-1.0.0"
@@ -13353,7 +13354,7 @@ in
       })
       (sources."postcss-mixins-6.2.1" // {
         dependencies = [
-          sources."postcss-simple-vars-5.0.1"
+          sources."postcss-simple-vars-5.0.2"
         ];
       })
       sources."postcss-modules-extract-imports-2.0.0"
@@ -13938,7 +13939,7 @@ in
       sources."void-elements-2.0.1"
       sources."watchpack-1.6.0"
       sources."wbuf-1.7.3"
-      (sources."webpack-4.29.4" // {
+      (sources."webpack-4.29.5" // {
         dependencies = [
           sources."arr-diff-4.0.0"
           sources."array-unique-0.3.2"

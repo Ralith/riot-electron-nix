@@ -11,5 +11,9 @@ in `~/.config/nixpkgs/config.nix` to enable installing with `nix-env
 
 # Updating
 
-To generate a new version of this package, update `VERSION` in
-`node/generate.sh` and rerun it.
+To generate a new version of this package, update the riot-web
+submodule to the appropriate revision.
+
+# Troubleshooting
+
+Ensure that the riot-web submodule is checked out and up to date.
